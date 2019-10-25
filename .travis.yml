@@ -13,7 +13,7 @@ before_script:
 
 script:
   - gcc -c ./static_library/stat_lib.c
-  - ar r ./static_library/libstat.a ./static_library/stat_lib.o
+  - ar r ./static_library/libstat.a stat_lib.o
   - rm *.o
   - gcc -o Homework2*.o -L ./static_library -lstat
 
