@@ -14,7 +14,7 @@ before_script:
 script:
   - gcc -std=c11 -c ./static_library/*.c
   - ar r libstatic.a *.o
-  - gcc -std=c11 -c -fPIC source/*.c
+  - gcc -std=c11 -c -fPIC static_library/*.c
   - gcc -shared -o libdynamic.so *.o
   - gcc -std=c11 -c *.c
   - gcc -o application *.o -L. -lstat, -rpath,.
