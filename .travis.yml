@@ -13,7 +13,7 @@ before_script:
 
 
 script:
-  - gcc -o -L. -pthread main.c static_library/stat_lib.h static_library/stat_lib.c dynamic_library/dyn_lib.h dynamic_library/dyn_lib.c -g -Wall -Wextra -o main
+  - gcc -o -pthread main.c static_library/stat_lib.h static_library/stat_lib.c dynamic_library/dyn_lib.h dynamic_library/dyn_lib.c -g -Wall -Wextra -o main
   - mkdir build
   - cd build
   - cmake ..
