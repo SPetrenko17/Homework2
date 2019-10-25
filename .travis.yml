@@ -15,6 +15,7 @@ script:
   - gcc  main.c static_library/stat_lib.h static_library/stat_lib.c dynamic_library/dyn_lib.h dynamic_library/dyn_lib.c -g -Wall -Wextra -o main -L. -pthread
   - cpplint --filter=-readability,-build *.c
   - cppcheck --enable=warning,performance,information,style *.c *.h
+  - valgrind --leak-check=full --show-leak-kinds=all ./Homework2
   - mkdir build
   - cd build
   - cmake ..
