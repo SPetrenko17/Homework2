@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "stat_lib.h"
-#include "dyn_lib.h"
+#include "stat_lib.h"//NOLINT
+#include "dyn_lib.h"//NOLINT
 void test();
 int main() {
     size_t len_max = 128;
@@ -27,6 +27,7 @@ int main() {
     char* log_path = "./enwik8.txt";
     int res_mt = mt_run(sequence, i, log_path);
     int res_ot = run(sequence, i, log_path);
+    printf("%s %d %s %d", "mt:", res_mt, " ot:", res_ot);
     return 0;
 }
 void test(char* log_path, char* sequence) {

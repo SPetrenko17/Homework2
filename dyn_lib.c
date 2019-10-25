@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <zconf.h>
-#include "dyn_lib.h"
+#include "dyn_lib.h"//NOLINT
 typedef struct {
     char* chunk;
     char* sequence;
@@ -70,10 +70,11 @@ int mt_run(char* sequence, int seq_size, char* log_path) {
         }
         free(threads);
     }
-    printf("\n[MT]Вхождений:  %d", mt_count);
-
     time_req = clock() - time_req;
-    printf("\n%f%s",(float)time_req/CLOCKS_PER_SEC,"\n");
-
+    printf("\n%f%s", (float)time_req/CLOCKS_PER_SEC, "\n");//NOLINT
+    for (int i = 0; i < thread_count; i++) {
+        free(chunks[i]);
+    }
+    free(chunks);
     return mt_count;
 }
