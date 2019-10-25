@@ -193,3 +193,41 @@ Linking C executable cmTC_d98ef
     Feature record: C_FEATURE:0c_restrict
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d261/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9d261.dir/build.make CMakeFiles/cmTC_9d261.dir/build
+Building C object CMakeFiles/cmTC_9d261.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu99 -o CMakeFiles/cmTC_9d261.dir/CheckIncludeFile.c.o   -c /Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9d261
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d261.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9d261.dir/CheckIncludeFile.c.o  -o cmTC_9d261 
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92a1c/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_92a1c.dir/build.make CMakeFiles/cmTC_92a1c.dir/build
+Building C object CMakeFiles/cmTC_92a1c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu99 -o CMakeFiles/cmTC_92a1c.dir/CheckSymbolExists.c.o   -c /Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_92a1c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92a1c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92a1c.dir/CheckSymbolExists.c.o  -o cmTC_92a1c 
+
+File /Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

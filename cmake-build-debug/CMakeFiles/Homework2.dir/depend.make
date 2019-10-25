@@ -4,7 +4,9 @@
 CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o: ../dynamic_library/dyn_lib.c
 CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o: ../dynamic_library/dyn_lib.h
 
+CMakeFiles/Homework2.dir/main.c.o: ../dynamic_library/dyn_lib.h
 CMakeFiles/Homework2.dir/main.c.o: ../main.c
+CMakeFiles/Homework2.dir/main.c.o: ../static_library/stat_lib.h
 
 CMakeFiles/Homework2.dir/static_library/stat_lib.c.o: ../static_library/stat_lib.c
 CMakeFiles/Homework2.dir/static_library/stat_lib.c.o: ../static_library/stat_lib.h

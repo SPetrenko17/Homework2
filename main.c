@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "static_library/stat_lib.h"
-#include "dynamic_library/dyn_lib.h"
+#include "stat_lib.h"
+#include "dyn_lib.h"
 void test();
 int main() {
     size_t len_max = 128;

@@ -6,5 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/sergei/Desktop/Homework2/dynamic_library/dyn_lib.h
+
 /Users/sergei/Desktop/Homework2/main.c
+stdio.h
+-
+stdlib.h
+-
+static_library/stat_lib.h
+/Users/sergei/Desktop/Homework2/static_library/stat_lib.h
+dynamic_library/dyn_lib.h
+/Users/sergei/Desktop/Homework2/dynamic_library/dyn_lib.h
+
+/Users/sergei/Desktop/Homework2/static_library/stat_lib.h
 
