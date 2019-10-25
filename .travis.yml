@@ -13,7 +13,7 @@ before_script:
 
 script:
   - gcc  main.c static_library/stat_lib.h static_library/stat_lib.c dynamic_library/dyn_lib.h dynamic_library/dyn_lib.c -g -Wall -Wextra -o main -L. -pthread
-  - gcc -o Homework2 *.o -fprofile-arcs -ftest-coverage -g -L. -ldynamic -lstatic -Wl,-rpath,.
+  - gcc -o Homework2_app *.o -fprofile-arcs -ftest-coverage -g -L. -ldynamic -lstatic -Wl,-rpath,.
     - ./Homework2_app
   - lcov -t "coverage" -o coverage.info -c -d .
   - cpplint --filter=-readability,-build *.c
