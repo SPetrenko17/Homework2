@@ -13,8 +13,7 @@ before_script:
 
 
 script:
-  - gcc -pthread
-  - gcc -g -Wall -Wextra main.c -o main
+  - gcc -pthread -g -Wall -Wextra main.c -o main
   - mkdir build
   - cd build
   - cmake ..
