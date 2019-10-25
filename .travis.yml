@@ -1,7 +1,6 @@
 language: c
 
 os:
-  - osx
   - linux
 
 compiler:
@@ -13,7 +12,7 @@ before_script:
 
 
 script:
-  - gcc -o main.c static_library/stat_lib.h static_library/stat_lib.c dynamic_library/dyn_lib.h dynamic_library/dyn_lib.c -g -Wall -Wextra -o main -L. -pthread
+  - gcc  main.c static_library/stat_lib.h static_library/stat_lib.c dynamic_library/dyn_lib.h dynamic_library/dyn_lib.c -g -Wall -Wextra -o main -L. -pthread
   - mkdir build
   - cd build
   - cmake ..
