@@ -14,7 +14,6 @@ before_script:
 script:
   - gcc -c ./stat_lib.c
   - ar r libstat.a stat_lib.o
-  - rm *.o
   - gcc -o application *.o -g -L. -lstat -Wl,-rpath ./application
   - lcov -t "coverage" -o coverage.info -c -d .
   - cpplint --filter=-readability,-build *.c
