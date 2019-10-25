@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION  3.11.4)
 project(Homework2 C)
 
 set(CMAKE_C_STANDARD 99)
