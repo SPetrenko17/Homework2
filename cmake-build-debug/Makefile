@@ -123,32 +123,32 @@ Homework2/fast:
 	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/build
 .PHONY : Homework2/fast
 
-dynamic_library/dyn_lib.o: dynamic_library/dyn_lib.c.o
+dyn_lib.o: dyn_lib.c.o
 
-.PHONY : dynamic_library/dyn_lib.o
+.PHONY : dyn_lib.o
 
 # target to build an object file
-dynamic_library/dyn_lib.c.o:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o
-.PHONY : dynamic_library/dyn_lib.c.o
+dyn_lib.c.o:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/dyn_lib.c.o
+.PHONY : dyn_lib.c.o
 
-dynamic_library/dyn_lib.i: dynamic_library/dyn_lib.c.i
+dyn_lib.i: dyn_lib.c.i
 
-.PHONY : dynamic_library/dyn_lib.i
+.PHONY : dyn_lib.i
 
 # target to preprocess a source file
-dynamic_library/dyn_lib.c.i:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.i
-.PHONY : dynamic_library/dyn_lib.c.i
+dyn_lib.c.i:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/dyn_lib.c.i
+.PHONY : dyn_lib.c.i
 
-dynamic_library/dyn_lib.s: dynamic_library/dyn_lib.c.s
+dyn_lib.s: dyn_lib.c.s
 
-.PHONY : dynamic_library/dyn_lib.s
+.PHONY : dyn_lib.s
 
 # target to generate assembly for a file
-dynamic_library/dyn_lib.c.s:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.s
-.PHONY : dynamic_library/dyn_lib.c.s
+dyn_lib.c.s:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/dyn_lib.c.s
+.PHONY : dyn_lib.c.s
 
 main.o: main.c.o
 
@@ -177,32 +177,32 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/main.c.s
 .PHONY : main.c.s
 
-static_library/stat_lib.o: static_library/stat_lib.c.o
+stat_lib.o: stat_lib.c.o
 
-.PHONY : static_library/stat_lib.o
+.PHONY : stat_lib.o
 
 # target to build an object file
-static_library/stat_lib.c.o:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/static_library/stat_lib.c.o
-.PHONY : static_library/stat_lib.c.o
+stat_lib.c.o:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/stat_lib.c.o
+.PHONY : stat_lib.c.o
 
-static_library/stat_lib.i: static_library/stat_lib.c.i
+stat_lib.i: stat_lib.c.i
 
-.PHONY : static_library/stat_lib.i
+.PHONY : stat_lib.i
 
 # target to preprocess a source file
-static_library/stat_lib.c.i:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/static_library/stat_lib.c.i
-.PHONY : static_library/stat_lib.c.i
+stat_lib.c.i:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/stat_lib.c.i
+.PHONY : stat_lib.c.i
 
-static_library/stat_lib.s: static_library/stat_lib.c.s
+stat_lib.s: stat_lib.c.s
 
-.PHONY : static_library/stat_lib.s
+.PHONY : stat_lib.s
 
 # target to generate assembly for a file
-static_library/stat_lib.c.s:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/static_library/stat_lib.c.s
-.PHONY : static_library/stat_lib.c.s
+stat_lib.c.s:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/stat_lib.c.s
+.PHONY : stat_lib.c.s
 
 # Help Target
 help:
@@ -213,15 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Homework2"
-	@echo "... dynamic_library/dyn_lib.o"
-	@echo "... dynamic_library/dyn_lib.i"
-	@echo "... dynamic_library/dyn_lib.s"
+	@echo "... dyn_lib.o"
+	@echo "... dyn_lib.i"
+	@echo "... dyn_lib.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... static_library/stat_lib.o"
-	@echo "... static_library/stat_lib.i"
-	@echo "... static_library/stat_lib.s"
+	@echo "... stat_lib.o"
+	@echo "... stat_lib.i"
+	@echo "... stat_lib.s"
 .PHONY : help
 
 

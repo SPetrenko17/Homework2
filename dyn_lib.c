@@ -76,5 +76,6 @@ int mt_run(char* sequence, int seq_size, char* log_path) {
         free(chunks[i]);
     }
     free(chunks);
+    fclose(log_file);
     return mt_count;
 }

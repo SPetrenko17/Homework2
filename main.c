@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "stat_lib.h"//NOLINT
+#include "static_library/stat_lib.h"//NOLINT
 #include "dyn_lib.h"//NOLINT
 void test();
 int main() {

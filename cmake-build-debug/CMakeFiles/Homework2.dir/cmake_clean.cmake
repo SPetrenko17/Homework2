@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Homework2.dir/main.c.o"
-  "CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o"
-  "CMakeFiles/Homework2.dir/static_library/stat_lib.c.o"
+  "CMakeFiles/Homework2.dir/dyn_lib.c.o"
+  "CMakeFiles/Homework2.dir/stat_lib.c.o"
   "Homework2.pdb"
   "Homework2"
 )

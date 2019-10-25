@@ -12,9 +12,13 @@ before_script:
 
 
 script:
-  - gcc -c ./stat_lib.c
-  - ar r libstat.a stat_lib.o
-  - gcc -o application *.o -g -L. -lstat -Wl,-rpath ./application
+  - gcc -std=c11 -c ./source/*.c
+  - ar r libstatic.a *.o
+  - gcc -std=c11 -c -fPIC source/*.c
+  - gcc -shared -o libdynamic.so *.o
+  - gcc -std=c11 -c *.c
+  - gcc -o application *.o -L. -lstat, -rpath,.
+  - ./application
   - lcov -t "coverage" -o coverage.info -c -d .
   - cpplint --filter=-readability,-build *.c
   - cppcheck --enable=warning,performance,information,style *.c *.h

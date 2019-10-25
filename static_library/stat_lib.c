@@ -33,5 +33,7 @@ int run(char* sequence, int seq_size, char* log_path) {
     }
     time_req = clock() - time_req;
     printf("\n%f%s", (float)time_req/CLOCKS_PER_SEC, "\n");//NOLINT
+    fclose(log_file);
+
     return count;
 }
