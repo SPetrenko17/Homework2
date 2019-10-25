@@ -17,7 +17,7 @@ script:
   - gcc -std=c11 -c -fPIC static_library/*.c
   - gcc -shared -o libdynamic.so *.o
   - gcc -std=c11 -c *.c
-  - gcc -o application *.o -L. -lstat, -rpath.
+  - gcc -o application *.o -L. -lstat
   - ./application
   - lcov -t "coverage" -o coverage.info -c -d .
   - cpplint --filter=-readability,-build *.c
