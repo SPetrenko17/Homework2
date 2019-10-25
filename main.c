@@ -59,7 +59,7 @@ int mt_run(char* sequence, int seq_size, char* log_path) {
         pthread_t *threads =
                 (pthread_t *) malloc(thread_count * sizeof(pthread_t));//NOLINT
         ThreadPackage* threadPackages =
-                (ThreadPackage**) //NOLINT
+                (ThreadPackage*) //NOLINT
                         malloc(thread_count * sizeof( ThreadPackage));
 
         for (int i = 0; i < thread_count; i++) {
@@ -92,7 +92,7 @@ int main() {
     seq_size = len_max;
     printf("\nEnter a string:");
     char c = EOF;
-    int i = 0;
+    size_t i = 0;
     while ((c = getchar()) != '\n' && c != EOF) {
         sequence[i++] = c;
         if (i == seq_size) {
