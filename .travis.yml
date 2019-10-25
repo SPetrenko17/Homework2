@@ -12,7 +12,7 @@ before_script:
 
 
 script:
-  - gcc -std=c11 -c ./source/*.c
+  - gcc -std=c11 -c ./static_library/*.c
   - ar r libstatic.a *.o
   - gcc -std=c11 -c -fPIC source/*.c
   - gcc -shared -o libdynamic.so *.o
