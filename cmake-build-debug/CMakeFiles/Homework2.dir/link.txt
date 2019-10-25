@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Homework2.dir/main.c.o CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o CMakeFiles/Homework2.dir/static_library/stat_lib.c.o  -o Homework2 
