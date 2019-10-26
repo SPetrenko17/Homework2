@@ -12,7 +12,7 @@ void tests();
 void run_user();
 
 int main() {
-    test("./enwik8.txt", "namespace", 146);
+    tests();
     return 0;
 }
 void tests() {
