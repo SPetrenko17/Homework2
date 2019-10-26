@@ -6,19 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/sergei/Desktop/Homework2/libdyn.c
+/Users/sergei/Desktop/Homework2/libdyn.h
+
+/Users/sergei/Desktop/Homework2/libstat.h
+
+/Users/sergei/Desktop/Homework2/main.c
 stdio.h
--
-string.h
 -
 stdlib.h
 -
-pthread.h
+string.h
 -
-zconf.h
+assert.h
 -
+libstat.h
+/Users/sergei/Desktop/Homework2/libstat.h
 libdyn.h
-/Users/sergei/Desktop/Homework2/libdyn.h
-
 /Users/sergei/Desktop/Homework2/libdyn.h
 
