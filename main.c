@@ -4,10 +4,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "static_library/stat_lib.h"//NOLINT
-#include "dyn_lib.h"//NOLINT
-void test();
+#include <assert.h>
+#include "libstat.h"//NOLINT
+#include "libdyn.h"//NOLINT
+void test(char* log_path, char* sequence);
+void tests();
 int main() {
+    //tests();
+
     size_t len_max = 128;
     size_t seq_size = 0;
     char *sequence = malloc(len_max);
@@ -30,8 +34,14 @@ int main() {
     printf("%s %d %s %d", "mt:", res_mt, " ot:", res_ot);
     return 0;
 }
+void tests(){
+    test("./enwik8.txt","namespace");
+    test("./enwik8.txt","hello");
+    test("./enwik8.txt","name");
+}
 void test(char* log_path, char* sequence) {
     int size = strlen(sequence);
     int res_mt = mt_run(sequence, size, log_path);
     int res_ot = run(sequence, size, log_path);
+    assert(res_mt == res_ot);
 }

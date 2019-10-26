@@ -177,32 +177,32 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/main.c.s
 .PHONY : main.c.s
 
-stat_lib.o: stat_lib.c.o
+static_library/stat_lib.o: static_library/stat_lib.c.o
 
-.PHONY : stat_lib.o
+.PHONY : static_library/stat_lib.o
 
 # target to build an object file
-stat_lib.c.o:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/stat_lib.c.o
-.PHONY : stat_lib.c.o
+static_library/stat_lib.c.o:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/static_library/stat_lib.c.o
+.PHONY : static_library/stat_lib.c.o
 
-stat_lib.i: stat_lib.c.i
+static_library/stat_lib.i: static_library/stat_lib.c.i
 
-.PHONY : stat_lib.i
+.PHONY : static_library/stat_lib.i
 
 # target to preprocess a source file
-stat_lib.c.i:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/stat_lib.c.i
-.PHONY : stat_lib.c.i
+static_library/stat_lib.c.i:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/static_library/stat_lib.c.i
+.PHONY : static_library/stat_lib.c.i
 
-stat_lib.s: stat_lib.c.s
+static_library/stat_lib.s: static_library/stat_lib.c.s
 
-.PHONY : stat_lib.s
+.PHONY : static_library/stat_lib.s
 
 # target to generate assembly for a file
-stat_lib.c.s:
-	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/stat_lib.c.s
-.PHONY : stat_lib.c.s
+static_library/stat_lib.c.s:
+	$(MAKE) -f CMakeFiles/Homework2.dir/build.make CMakeFiles/Homework2.dir/static_library/stat_lib.c.s
+.PHONY : static_library/stat_lib.c.s
 
 # Help Target
 help:
@@ -219,9 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... stat_lib.o"
-	@echo "... stat_lib.i"
-	@echo "... stat_lib.s"
+	@echo "... static_library/stat_lib.o"
+	@echo "... static_library/stat_lib.i"
+	@echo "... static_library/stat_lib.s"
 .PHONY : help
 
 

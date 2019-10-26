@@ -22,29 +22,3 @@ dyn_lib.h
 
 /Users/sergei/Desktop/Homework2/dyn_lib.h
 
-/Users/sergei/Desktop/Homework2/main.c
-stdio.h
--
-stdlib.h
--
-string.h
--
-stat_lib.h
-/Users/sergei/Desktop/Homework2/stat_lib.h
-dyn_lib.h
-/Users/sergei/Desktop/Homework2/dyn_lib.h
-
-/Users/sergei/Desktop/Homework2/stat_lib.c
-stdio.h
--
-string.h
--
-zconf.h
--
-time.h
--
-stat_lib.h
-/Users/sergei/Desktop/Homework2/stat_lib.h
-
-/Users/sergei/Desktop/Homework2/stat_lib.h
-

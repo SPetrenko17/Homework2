@@ -87,10 +87,10 @@
 		<Unit filename="/Users/sergei/Desktop/Homework2/main.c">
 			<Option target="Homework2"/>
 		</Unit>
-		<Unit filename="/Users/sergei/Desktop/Homework2/stat_lib.c">
+		<Unit filename="/Users/sergei/Desktop/Homework2/static_library/stat_lib.c">
 			<Option target="Homework2"/>
 		</Unit>
-		<Unit filename="/Users/sergei/Desktop/Homework2/stat_lib.h">
+		<Unit filename="/Users/sergei/Desktop/Homework2/static_library/stat_lib.h">
 			<Option target="Homework2"/>
 		</Unit>
 		<Unit filename="/Users/sergei/Desktop/Homework2/CMakeLists.txt">

@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/sergei/Desktop/Homework2/dyn_lib.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/dyn_lib.c.o"
   "/Users/sergei/Desktop/Homework2/main.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/main.c.o"
-  "/Users/sergei/Desktop/Homework2/stat_lib.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/stat_lib.c.o"
+  "/Users/sergei/Desktop/Homework2/static_library/stat_lib.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/static_library/stat_lib.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
