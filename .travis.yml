@@ -17,7 +17,7 @@ script:
   - gcc -std=c11 -c -fPIC libdyn.c
   - gcc -shared -o libdyn.so libdyn.o
   - gcc -std=c11 --coverage -c *.c
-  - gcc -o Homework2 *.o -fprofile-arcs -ftest-coverage -g -L. -ldyn -lstat -Wl,-rpath,.
+  - gcc -o Homework2 *.o -fprofile-arcs -ftest-coverage -g -L. -ldyn -lstat -lpthread -Wl,-rpath,.
   - ./Homework2
   - lcov -t "coverage" -o coverage.info -c -d .
   - cpplint --filter=-readability,-build *.c
