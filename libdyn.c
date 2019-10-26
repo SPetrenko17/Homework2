@@ -38,9 +38,9 @@ int mt_run(char* sequence, int seq_size, char* log_path) {
     mt_count = 0;
     int thread_count = 10;
     int chunk_size = seq_size * 10;
-    char **chunks = (char **)malloc(thread_count * sizeof(char*));//NOLINT
+    char **chunks = (char **)malloc(thread_count * sizeof(char**));//NOLINT
     for (int i = 0; i < thread_count; i++) {
-        chunks[i] = (char *)malloc(chunk_size * sizeof(char));//NOLINT
+        chunks[i] = (char *)malloc(chunk_size * sizeof(char*));//NOLINT
     }
     log_file = fopen(log_path, "r");
     while (!(feof(log_file))) {
