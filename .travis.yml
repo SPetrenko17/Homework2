@@ -13,7 +13,7 @@ before_script:
 
 script:
   - gcc -std=c11  -c ./libstat.c
-  - ar r libstatic.a libstat.o
+  - ar r libstat.a libstat.o
   - gcc -std=c11 -c -fPIC libdyn.c
   - gcc -shared -o libdyn.so libdyn.o
   - gcc -std=c11 --coverage -c *.c
