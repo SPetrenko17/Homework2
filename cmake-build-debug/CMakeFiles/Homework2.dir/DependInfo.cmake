@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/sergei/Desktop/Homework2/dynamic_library/dyn_lib.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o"
+  "/Users/sergei/Desktop/Homework2/libdyn.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/libdyn.c.o"
+  "/Users/sergei/Desktop/Homework2/libstat.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/libstat.c.o"
   "/Users/sergei/Desktop/Homework2/main.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/main.c.o"
-  "/Users/sergei/Desktop/Homework2/static_library/stat_lib.c" "/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles/Homework2.dir/static_library/stat_lib.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

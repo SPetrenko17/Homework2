@@ -70,44 +70,44 @@ CMakeFiles/Homework2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework2.dir/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergei/Desktop/Homework2/main.c -o CMakeFiles/Homework2.dir/main.c.s
 
-CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o: CMakeFiles/Homework2.dir/flags.make
-CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o: ../dynamic_library/dyn_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o   -c /Users/sergei/Desktop/Homework2/dynamic_library/dyn_lib.c
+CMakeFiles/Homework2.dir/libdyn.c.o: CMakeFiles/Homework2.dir/flags.make
+CMakeFiles/Homework2.dir/libdyn.c.o: ../libdyn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Homework2.dir/libdyn.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework2.dir/libdyn.c.o   -c /Users/sergei/Desktop/Homework2/libdyn.c
 
-CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergei/Desktop/Homework2/dynamic_library/dyn_lib.c > CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.i
+CMakeFiles/Homework2.dir/libdyn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework2.dir/libdyn.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergei/Desktop/Homework2/libdyn.c > CMakeFiles/Homework2.dir/libdyn.c.i
 
-CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergei/Desktop/Homework2/dynamic_library/dyn_lib.c -o CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.s
+CMakeFiles/Homework2.dir/libdyn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework2.dir/libdyn.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergei/Desktop/Homework2/libdyn.c -o CMakeFiles/Homework2.dir/libdyn.c.s
 
-CMakeFiles/Homework2.dir/static_library/stat_lib.c.o: CMakeFiles/Homework2.dir/flags.make
-CMakeFiles/Homework2.dir/static_library/stat_lib.c.o: ../static_library/stat_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Homework2.dir/static_library/stat_lib.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework2.dir/static_library/stat_lib.c.o   -c /Users/sergei/Desktop/Homework2/static_library/stat_lib.c
+CMakeFiles/Homework2.dir/libstat.c.o: CMakeFiles/Homework2.dir/flags.make
+CMakeFiles/Homework2.dir/libstat.c.o: ../libstat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Homework2.dir/libstat.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Homework2.dir/libstat.c.o   -c /Users/sergei/Desktop/Homework2/libstat.c
 
-CMakeFiles/Homework2.dir/static_library/stat_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework2.dir/static_library/stat_lib.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergei/Desktop/Homework2/static_library/stat_lib.c > CMakeFiles/Homework2.dir/static_library/stat_lib.c.i
+CMakeFiles/Homework2.dir/libstat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Homework2.dir/libstat.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergei/Desktop/Homework2/libstat.c > CMakeFiles/Homework2.dir/libstat.c.i
 
-CMakeFiles/Homework2.dir/static_library/stat_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework2.dir/static_library/stat_lib.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergei/Desktop/Homework2/static_library/stat_lib.c -o CMakeFiles/Homework2.dir/static_library/stat_lib.c.s
+CMakeFiles/Homework2.dir/libstat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Homework2.dir/libstat.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergei/Desktop/Homework2/libstat.c -o CMakeFiles/Homework2.dir/libstat.c.s
 
 # Object files for target Homework2
 Homework2_OBJECTS = \
 "CMakeFiles/Homework2.dir/main.c.o" \
-"CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o" \
-"CMakeFiles/Homework2.dir/static_library/stat_lib.c.o"
+"CMakeFiles/Homework2.dir/libdyn.c.o" \
+"CMakeFiles/Homework2.dir/libstat.c.o"
 
 # External object files for target Homework2
 Homework2_EXTERNAL_OBJECTS =
 
 Homework2: CMakeFiles/Homework2.dir/main.c.o
-Homework2: CMakeFiles/Homework2.dir/dynamic_library/dyn_lib.c.o
-Homework2: CMakeFiles/Homework2.dir/static_library/stat_lib.c.o
+Homework2: CMakeFiles/Homework2.dir/libdyn.c.o
+Homework2: CMakeFiles/Homework2.dir/libstat.c.o
 Homework2: CMakeFiles/Homework2.dir/build.make
 Homework2: CMakeFiles/Homework2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sergei/Desktop/Homework2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Homework2"
