@@ -23,9 +23,9 @@ void test(char* log_path, char* sequence, int answer) {
 }
 void tests(){
     test("./enwik8.txt","namespace", 146);
-    test("./enwik8.txt","hello", 172);
-    test("./enwik8.txt","Ada programming language", 24);
-    test("./enwik8.txt","Random string in text doesn't exist", 0);
+//    test("./enwik8.txt","hello", 172);
+//    test("./enwik8.txt","Ada programming language", 24);
+//    test("./enwik8.txt","Random string in text doesn't exist", 0);
 }
 
 void run_user(){
