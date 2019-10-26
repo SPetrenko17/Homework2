@@ -7,7 +7,7 @@
 #include <assert.h>
 #include "libstat.h"//NOLINT
 #include "libdyn.h"//NOLINT
-void test(char* log_path, char* sequence);
+void test(char* log_path, char* sequence, int answer);
 void tests();
 int main() {
     //tests();
@@ -35,13 +35,15 @@ int main() {
     return 0;
 }
 void tests(){
-    test("./enwik8.txt","namespace");
-    test("./enwik8.txt","hello");
-    test("./enwik8.txt","name");
+    test("./enwik8.txt","namespace", 146);
+    test("./enwik8.txt","hello", 172);
+    test("./enwik8.txt","Ada programming language", 24);
+    test("./enwik8.txt","Random string in text doesn't exist", 0);
 }
-void test(char* log_path, char* sequence) {
+void test(char* log_path, char* sequence, int answer) {
     int size = strlen(sequence);
     int res_mt = mt_run(sequence, size, log_path);
     int res_ot = run(sequence, size, log_path);
-    assert(res_mt == res_ot);
+    printf("%s %d %s %d", "test mt:", res_mt, " ot:", res_ot);
+    assert(res_mt == res_ot && res_mt == answer);
 }

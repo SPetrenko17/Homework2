@@ -12,13 +12,14 @@ before_script:
 
 
 script:
-  - gcc -std=c11 -c ./ *.c
-  - ar r libstat.a *.o
-  - gcc -std=c11 -c -fPIC ./*.c
-  - gcc -shared -o libdyn.so *.o
-  - gcc -std=c11 -c *.c
-  - gcc -o Homework2 *.o -L. -ldyn -lstat -lpthread -Wl,-rpath,.
-  - ./Homeworks2
+  - gcc -std=c11  -c ./libstat.c
+  - ar r libstatic.a libstat.o
+  - gcc -std=c11 -c -fPIC libdyn.c
+  - gcc -shared -o libdyn.so libdyn.o
+  - gcc -std=c11 --coverage -c *.c
+  - gcc -o Homework2 *.o -fprofile-arcs -ftest-coverage -g -L. -ldyn -lstat -Wl,-rpath,.
+   - ./Homework2
+
   - lcov -t "coverage" -o coverage.info -c -d .
   - cpplint --filter=-readability,-build *.c
   - cppcheck --enable=warning,performance,information,style *.c *.h
