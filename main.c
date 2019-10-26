@@ -15,9 +15,9 @@ int main() {
     char* sequence = "namespace";
     int i = 9;
     char* log_path = "./enwik8.txt";
-    int res_mt = mt_run(sequence, i, log_path);
+    //nt res_mt = mt_run(sequence, i, log_path);
     int res_ot = run(sequence, i, log_path);
-    printf("%s %d %s %d", "mt:", res_mt, " ot:", res_ot);
+    printf("%s %d", " ot:", res_ot);
 
     return 0;
 }
