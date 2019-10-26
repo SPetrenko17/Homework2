@@ -45,10 +45,10 @@ int mt_run(char* sequence, int seq_size, char* log_path) {
     log_file = fopen(log_path, "r");
     while (!(feof(log_file))) {
         pthread_t *threads =
-                (pthread_t *) malloc(thread_count * sizeof(pthread_t));//NOLINT
+                (pthread_t *) malloc(thread_count * sizeof(pthread_t*));//NOLINT
         ThreadPackage* threadPackages =
                 (ThreadPackage*) //NOLINT
-                        malloc(thread_count * sizeof(ThreadPackage));
+                        malloc(thread_count * sizeof(ThreadPackage*));
 
         for (int i = 0; i < thread_count; i++) {
             fgets(chunks[i], chunk_size, log_file);
