@@ -4,6 +4,7 @@ os:
   - linux
 
 compiler:
+  - gcc
   - clang
 
 before_script:
